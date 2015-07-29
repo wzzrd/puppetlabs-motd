@@ -1,5 +1,15 @@
-The operating system is <%= @operatingsystem %>
-The free memory is <%= @memoryfree %>
-<%- if @domain -%>
-The domain is <%= @domain %>
-<%- end -%>
+============================================================
+
+Welcome on:
+     <%= @fqdn %>
+
+     Hostgroup:        <%= @hostgroup %>
+   Location:         <%= @location %>
+ Organization:     <%= @organization %>
+ Operating system: <%= @operatingsystem -%> <%= @operatingsystemrelease %>
+
+ This system is owned by:
+ <%= @owner_name %>
+ <%= @owner_email %>
+
+============================================================
